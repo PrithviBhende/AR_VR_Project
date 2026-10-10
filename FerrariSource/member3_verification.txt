@@ -1,0 +1,83 @@
+MEMBER 3 UNITY PLAY-MODE VERIFICATION | 2026-10-09T16:35:40 | failures=0
+PASS: Actual mode-switch button enters self assembly
+PASS: 15 unique candidates, zero placed on restart
+PASS: Only the fixed body is visible initially
+PASS: All 16 actual-mesh thumbnails load from bundled resources
+PASS: Every part has a placement clue
+PASS: Clicking a pictured row previews details without taking the part
+PASS: Selected part's placement clue appears in the right panel
+PASS: Visible and recycled inventory rows have part images
+PASS: Normal mouse wheel over the car zooms in
+PASS: Reverse wheel motion smoothly restores zoom factor
+PASS: Inventory wraps forward through all 15 choices
+PASS: Inventory wraps backwards across zero
+PASS: Mouse wheel scroll over a row advances the looping inventory
+PASS: Scrolling the parts list does not zoom the car
+PASS: Actual inventory-row mouse drag reserves the wheel
+PASS: Reserved part is removed from repeating inventory
+PASS: Dragged wheel enters the matching target's snap range
+PASS: Turntable and camera stay fixed during placement drag
+PASS: Loose part orientation differs before automatic alignment
+PASS: Mouse release snaps the wheel's exact position, orientation and scale
+PASS: Already placed part cannot be taken twice
+PASS: Placed part remains removed from inventory
+PASS: Loop length adjusts after removing a placed part
+PASS: Unplaced door can be taken in any order
+PASS: Far drop returns the part without incrementing progress
+PASS: Release over the inventory safely returns the part
+PASS: Matching-anchor drop works after a 90-degree root rotation
+PASS: Rotated-display snap restores the saved local pose
+PASS: Engine does not snap at an unrelated front-wheel target
+PASS: Cancel restores inventory and clears pointer ownership
+PASS: Inspection commands cannot expose inventory parts in assembly mode
+PASS: Returning to inspection shows the complete car at exact poses
+PASS: Exploded inspection still works after assembly mode
+PASS: Returning to assembly resumes placement progress
+PASS: Valid matching drop: bonnet
+PASS: Exact saved pose after snap: bonnet
+PASS: Valid matching drop: bumper_F
+PASS: Exact saved pose after snap: bumper_F
+PASS: Valid matching drop: bumper_R
+PASS: Exact saved pose after snap: bumper_R
+PASS: Valid matching drop: door_R
+PASS: Exact saved pose after snap: door_R
+PASS: Valid matching drop: engine
+PASS: Exact saved pose after snap: engine
+PASS: Valid matching drop: engine_cover
+PASS: Exact saved pose after snap: engine_cover
+PASS: Valid matching drop: rear_wing
+PASS: Exact saved pose after snap: rear_wing
+PASS: Valid matching drop: seat_L
+PASS: Exact saved pose after snap: seat_L
+PASS: Valid matching drop: seat_R
+PASS: Exact saved pose after snap: seat_R
+PASS: Valid matching drop: steering_wheel
+PASS: Exact saved pose after snap: steering_wheel
+PASS: Valid matching drop: wheel_FL
+PASS: Exact saved pose after snap: wheel_FL
+PASS: Valid matching drop: wheel_RL
+PASS: Exact saved pose after snap: wheel_RL
+PASS: Valid matching drop: wheel_RR
+PASS: Exact saved pose after snap: wheel_RR
+PASS: Completion at 15/15 with empty inventory and whole car visible
+PASS: No duplicate physical part objects were created
+PASS: Actual restart button resets completion and inventory
+PASS: Reverse-order rotated drop: wheel_RR
+PASS: Reverse-order rotated drop: wheel_RL
+PASS: Reverse-order rotated drop: wheel_FR
+PASS: Reverse-order rotated drop: wheel_FL
+PASS: Reverse-order rotated drop: steering_wheel
+PASS: Reverse-order rotated drop: seat_R
+PASS: Reverse-order rotated drop: seat_L
+PASS: Reverse-order rotated drop: rear_wing
+PASS: Reverse-order rotated drop: engine_cover
+PASS: Reverse-order rotated drop: engine
+PASS: Reverse-order rotated drop: door_R
+PASS: Reverse-order rotated drop: door_L
+PASS: Reverse-order rotated drop: bumper_R
+PASS: Reverse-order rotated drop: bumper_F
+PASS: Reverse-order rotated drop: bonnet
+PASS: Second placement order completes with exact local transforms
+PASS: Restart cancels an in-flight snap without delayed placement
+PASS: Mode switch during drag recovers all parts cleanly
+Resolution: 1457x820

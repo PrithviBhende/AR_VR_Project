@@ -1,0 +1,65 @@
+ACCESS ANIMATION VERIFICATION | 2026-10-09T16:34:54 | failures=0
+PASS: Unplaced door stays in inventory when selecting a seat
+PASS: Unplaced engine cover is not spawned or counted as placed
+PASS: Placed panel begins exactly closed: door_L
+PASS: Opening is animated, not a teleport: door_L for seat_L
+PASS: Panel reaches the open hinge pose: door_L
+PASS: Open panel stays above the base: door_L
+PASS: Hierarchy and saved closed poses remain immutable: door_L
+PASS: Opening never changes placement progress or inventory: door_L
+PASS: Open hinge remains correct while display rotates: door_L
+PASS: Interior drop is accepted with access open: seat_L
+PASS: Interior snaps and panel closes to its exact original pose: seat_L
+PASS: Only the new interior/service part increments progress: seat_L
+PASS: Placed panel begins exactly closed: door_R
+PASS: Opening is animated, not a teleport: door_R for seat_R
+PASS: Panel reaches the open hinge pose: door_R
+PASS: Open panel stays above the base: door_R
+PASS: Hierarchy and saved closed poses remain immutable: door_R
+PASS: Opening never changes placement progress or inventory: door_R
+PASS: Open hinge remains correct while display rotates: door_R
+PASS: Interior drop is accepted with access open: seat_R
+PASS: Interior snaps and panel closes to its exact original pose: seat_R
+PASS: Only the new interior/service part increments progress: seat_R
+PASS: Placed panel begins exactly closed: door_L
+PASS: Opening is animated, not a teleport: door_L for steering_wheel
+PASS: Panel reaches the open hinge pose: door_L
+PASS: Open panel stays above the base: door_L
+PASS: Hierarchy and saved closed poses remain immutable: door_L
+PASS: Opening never changes placement progress or inventory: door_L
+PASS: Open hinge remains correct while display rotates: door_L
+PASS: Interior drop is accepted with access open: steering_wheel
+PASS: Interior snaps and panel closes to its exact original pose: steering_wheel
+PASS: Only the new interior/service part increments progress: steering_wheel
+PASS: Placed panel begins exactly closed: engine_cover
+PASS: Opening is animated, not a teleport: engine_cover for engine
+PASS: Panel reaches the open hinge pose: engine_cover
+PASS: Open panel stays above the base: engine_cover
+PASS: Hierarchy and saved closed poses remain immutable: engine_cover
+PASS: Opening never changes placement progress or inventory: engine_cover
+PASS: Open hinge remains correct while display rotates: engine_cover
+PASS: Interior drop is accepted with access open: engine
+PASS: Interior snaps and panel closes to its exact original pose: engine
+PASS: Only the new interior/service part increments progress: engine
+PASS: Placed panel begins exactly closed: bonnet
+PASS: Opening is animated, not a teleport: bonnet for bumper_F
+PASS: Panel reaches the open hinge pose: bonnet
+PASS: Open panel stays above the base: bonnet
+PASS: Hierarchy and saved closed poses remain immutable: bonnet
+PASS: Opening never changes placement progress or inventory: bonnet
+PASS: Open hinge remains correct while display rotates: bonnet
+PASS: Interior drop is accepted with access open: bumper_F
+PASS: Interior snaps and panel closes to its exact original pose: bumper_F
+PASS: Only the new interior/service part increments progress: bumper_F
+PASS: Left seat opens only the left placed door
+PASS: Switching selection closes the old door and opens the correct side
+PASS: Unrelated wheel selection closes access panels
+PASS: Cancel during opening safely reverses the animation
+PASS: Invalid drop returns the interior and closes its door
+PASS: Immediate drop waits for the access opening before snap
+PASS: Queued drop finishes and closes the door
+PASS: Restart interrupts opening and restores all closed anchors
+PASS: Mode exit during opening restores the full closed car
+PASS: Disabled assembly hinges do not overwrite inspection explosion poses
+PASS: Restart cancels a snap waiting for the cover without delayed placement
+Resolution: 1457x820
