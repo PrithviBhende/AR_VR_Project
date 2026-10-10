@@ -1,0 +1,2203 @@
+{
+  "parts": [
+    {
+      "id": "body",
+      "mesh_count": 124,
+      "faces": 235576,
+      "pivot_blender": [
+        0.033992648124694824,
+        -1.1920928955078125e-07,
+        0.5539752840995789
+      ],
+      "minimum": [
+        -2.247403860092163,
+        -1.0589929819107056,
+        0.03674576058983803
+      ],
+      "maximum": [
+        2.3153891563415527,
+        1.0589927434921265,
+        1.0712047815322876
+      ]
+    },
+    {
+      "id": "bonnet",
+      "mesh_count": 2,
+      "faces": 1442,
+      "pivot_blender": [
+        -1.5056262016296387,
+        0.025223493576049805,
+        0.5045135617256165
+      ],
+      "minimum": [
+        -2.1298584938049316,
+        -0.5782684087753296,
+        0.33785125613212585
+      ],
+      "maximum": [
+        -0.8813938498497009,
+        0.6287153959274292,
+        0.6711758971214294
+      ]
+    },
+    {
+      "id": "bumper_F",
+      "mesh_count": 7,
+      "faces": 9269,
+      "pivot_blender": [
+        -1.8734359741210938,
+        0.02522343397140503,
+        0.20789113640785217
+      ],
+      "minimum": [
+        -2.3153891563415527,
+        -0.9091298580169678,
+        0.03339572250843048
+      ],
+      "maximum": [
+        -1.4314829111099243,
+        0.9595767259597778,
+        0.38238653540611267
+      ]
+    },
+    {
+      "id": "bumper_R",
+      "mesh_count": 17,
+      "faces": 33570,
+      "pivot_blender": [
+        2.0146284103393555,
+        0.025223463773727417,
+        0.4351983070373535
+      ],
+      "minimum": [
+        1.7404707670211792,
+        -0.9638136029243469,
+        0.09881922602653503
+      ],
+      "maximum": [
+        2.2887861728668213,
+        1.0142605304718018,
+        0.7715773582458496
+      ]
+    },
+    {
+      "id": "door_L",
+      "mesh_count": 19,
+      "faces": 26494,
+      "pivot_blender": [
+        -0.1574498414993286,
+        -0.543635368347168,
+        0.5587047338485718
+      ],
+      "minimum": [
+        -0.794392466545105,
+        -0.9598724246025085,
+        0.04610612615942955
+      ],
+      "maximum": [
+        0.47949278354644775,
+        -0.12739835679531097,
+        1.071303367614746
+      ]
+    },
+    {
+      "id": "door_R",
+      "mesh_count": 19,
+      "faces": 26477,
+      "pivot_blender": [
+        -0.1574498414993286,
+        0.5940822958946228,
+        0.558704674243927
+      ],
+      "minimum": [
+        -0.794392466545105,
+        0.17784540355205536,
+        0.046105992048978806
+      ],
+      "maximum": [
+        0.47949278354644775,
+        1.0103192329406738,
+        1.071303367614746
+      ]
+    },
+    {
+      "id": "engine",
+      "mesh_count": 19,
+      "faces": 119659,
+      "pivot_blender": [
+        1.313296914100647,
+        0.02522355318069458,
+        0.5248599052429199
+      ],
+      "minimum": [
+        0.43308550119400024,
+        -0.9401664733886719,
+        0.0759604424238205
+      ],
+      "maximum": [
+        2.1935083866119385,
+        0.990613579750061,
+        0.9737593531608582
+      ]
+    },
+    {
+      "id": "engine_cover",
+      "mesh_count": 9,
+      "faces": 29627,
+      "pivot_blender": [
+        1.2178713083267212,
+        0.025174260139465332,
+        0.7926132678985596
+      ],
+      "minimum": [
+        0.4268781542778015,
+        -0.9670649766921997,
+        0.5355995297431946
+      ],
+      "maximum": [
+        2.008864402770996,
+        1.0174134969711304,
+        1.0496269464492798
+      ]
+    },
+    {
+      "id": "rear_wing",
+      "mesh_count": 12,
+      "faces": 9304,
+      "pivot_blender": [
+        2.0888209342956543,
+        0.025223493576049805,
+        0.6441296339035034
+      ],
+      "minimum": [
+        1.965314507484436,
+        -0.5816184282302856,
+        0.542890727519989
+      ],
+      "maximum": [
+        2.212327480316162,
+        0.6320654153823853,
+        0.745368480682373
+      ]
+    },
+    {
+      "id": "seat_L",
+      "mesh_count": 9,
+      "faces": 17297,
+      "pivot_blender": [
+        0.005369827151298523,
+        -0.2744041085243225,
+        0.5461915135383606
+      ],
+      "minimum": [
+        -0.35554298758506775,
+        -0.5350140929222107,
+        0.13961035013198853
+      ],
+      "maximum": [
+        0.3662826418876648,
+        -0.01379413716495037,
+        0.9527726769447327
+      ]
+    },
+    {
+      "id": "seat_R",
+      "mesh_count": 9,
+      "faces": 17346,
+      "pivot_blender": [
+        0.005369827151298523,
+        0.32485106587409973,
+        0.5461915135383606
+      ],
+      "minimum": [
+        -0.35554298758506775,
+        0.06424105912446976,
+        0.13961035013198853
+      ],
+      "maximum": [
+        0.3662826418876648,
+        0.5854610800743103,
+        0.9527726769447327
+      ]
+    },
+    {
+      "id": "steering_wheel",
+      "mesh_count": 17,
+      "faces": 20455,
+      "pivot_blender": [
+        -0.38736793398857117,
+        -0.2792320251464844,
+        0.6268377304077148
+      ],
+      "minimum": [
+        -0.4617575407028198,
+        -0.44752001762390137,
+        0.46396884322166443
+      ],
+      "maximum": [
+        -0.3129783272743225,
+        -0.11094401031732559,
+        0.7897066473960876
+      ]
+    },
+    {
+      "id": "wheel_FL",
+      "mesh_count": 9,
+      "faces": 38569,
+      "pivot_blender": [
+        -1.1043870449066162,
+        -0.7692986726760864,
+        0.32031190395355225
+      ],
+      "minimum": [
+        -1.4239223003387451,
+        -0.9250723123550415,
+        1.2665987014770508e-07
+      ],
+      "maximum": [
+        -0.7848517894744873,
+        -0.6135249733924866,
+        0.6406236886978149
+      ]
+    },
+    {
+      "id": "wheel_FR",
+      "mesh_count": 9,
+      "faces": 38547,
+      "pivot_blender": [
+        -1.1043870449066162,
+        0.819745659828186,
+        0.3203117847442627
+      ],
+      "minimum": [
+        -1.4239223003387451,
+        0.6639719009399414,
+        1.3969838619232178e-08
+      ],
+      "maximum": [
+        -0.7848517894744873,
+        0.9755193591117859,
+        0.6406235694885254
+      ]
+    },
+    {
+      "id": "wheel_RL",
+      "mesh_count": 9,
+      "faces": 38556,
+      "pivot_blender": [
+        1.5274498462677002,
+        -0.789747953414917,
+        0.3514258563518524
+      ],
+      "minimum": [
+        1.177111268043518,
+        -0.9605382680892944,
+        0.00023602880537509918
+      ],
+      "maximum": [
+        1.8777884244918823,
+        -0.6189576983451843,
+        0.7026156783103943
+      ]
+    },
+    {
+      "id": "wheel_RR",
+      "mesh_count": 9,
+      "faces": 38547,
+      "pivot_blender": [
+        1.5274498462677002,
+        0.8401949405670166,
+        0.35142573714256287
+      ],
+      "minimum": [
+        1.177111268043518,
+        0.6694046854972839,
+        0.00023591239005327225
+      ],
+      "maximum": [
+        1.8777884244918823,
+        1.0109851360321045,
+        0.7026155591011047
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "AmberGlass_1",
+      "color": [
+        1,
+        0.22,
+        0.015,
+        1
+      ],
+      "metallic": 0.1,
+      "smoothness": 0.78
+    },
+    {
+      "name": "Back M.Metal_1",
+      "color": [
+        0.06,
+        0.065,
+        0.07,
+        1
+      ],
+      "metallic": 0.25,
+      "smoothness": 0.6
+    },
+    {
+      "name": "Back Metal_1",
+      "color": [
+        0.06,
+        0.065,
+        0.07,
+        1
+      ],
+      "metallic": 0.25,
+      "smoothness": 0.6
+    },
+    {
+      "name": "Base_1",
+      "color": [
+        0.63,
+        0.008,
+        0.014,
+        1
+      ],
+      "metallic": 0.32,
+      "smoothness": 0.77
+    },
+    {
+      "name": "black plastic shiny_1",
+      "color": [
+        0.06,
+        0.065,
+        0.07,
+        1
+      ],
+      "metallic": 0.25,
+      "smoothness": 0.6
+    },
+    {
+      "name": "black plastic. matt_1",
+      "color": [
+        0.06,
+        0.065,
+        0.07,
+        1
+      ],
+      "metallic": 0.25,
+      "smoothness": 0.6
+    },
+    {
+      "name": "black rubber_1",
+      "color": [
+        0.018,
+        0.022,
+        0.026,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.30000000000000004
+    },
+    {
+      "name": "brown leather_1",
+      "color": [
+        0.08,
+        0.045,
+        0.034,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.5
+    },
+    {
+      "name": "brushed metal_1",
+      "color": [
+        0.6,
+        0.65,
+        0.7,
+        1
+      ],
+      "metallic": 0.8,
+      "smoothness": 0.76
+    },
+    {
+      "name": "Carpet v1-10_1",
+      "color": [
+        0.018,
+        0.022,
+        0.026,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.30000000000000004
+    },
+    {
+      "name": "Chrome_1",
+      "color": [
+        0.6,
+        0.65,
+        0.7,
+        1
+      ],
+      "metallic": 0.8,
+      "smoothness": 0.76
+    },
+    {
+      "name": "ClearGlass_1",
+      "color": [
+        0.035,
+        0.075,
+        0.09,
+        1
+      ],
+      "metallic": 0.45,
+      "smoothness": 0.88
+    },
+    {
+      "name": "default",
+      "color": [
+        0.63,
+        0.008,
+        0.014,
+        1
+      ],
+      "metallic": 0.32,
+      "smoothness": 0.77
+    },
+    {
+      "name": "DRL CAR_1",
+      "color": [
+        0.85,
+        0.92,
+        1,
+        1
+      ],
+      "metallic": 0.15,
+      "smoothness": 0.84
+    },
+    {
+      "name": "Gloss carbon_1",
+      "color": [
+        0.04,
+        0.05,
+        0.055,
+        1
+      ],
+      "metallic": 0.2,
+      "smoothness": 0.62
+    },
+    {
+      "name": "Gold Matt_1",
+      "color": [
+        0.65,
+        0.38,
+        0.075,
+        1
+      ],
+      "metallic": 0.6,
+      "smoothness": 0.7
+    },
+    {
+      "name": "Headlight_1",
+      "color": [
+        0.85,
+        0.92,
+        1,
+        1
+      ],
+      "metallic": 0.15,
+      "smoothness": 0.84
+    },
+    {
+      "name": "high gloss_1",
+      "color": [
+        0.63,
+        0.008,
+        0.014,
+        1
+      ],
+      "metallic": 0.32,
+      "smoothness": 0.77
+    },
+    {
+      "name": "Mat.1_1",
+      "color": [
+        0.06,
+        0.065,
+        0.07,
+        1
+      ],
+      "metallic": 0.25,
+      "smoothness": 0.6
+    },
+    {
+      "name": "Mat.2_1",
+      "color": [
+        0.06,
+        0.065,
+        0.07,
+        1
+      ],
+      "metallic": 0.25,
+      "smoothness": 0.6
+    },
+    {
+      "name": "Mat.3_1",
+      "color": [
+        0.06,
+        0.065,
+        0.07,
+        1
+      ],
+      "metallic": 0.25,
+      "smoothness": 0.6
+    },
+    {
+      "name": "Mat.4_1",
+      "color": [
+        0.06,
+        0.065,
+        0.07,
+        1
+      ],
+      "metallic": 0.25,
+      "smoothness": 0.6
+    },
+    {
+      "name": "Mat.5_1",
+      "color": [
+        0.06,
+        0.065,
+        0.07,
+        1
+      ],
+      "metallic": 0.25,
+      "smoothness": 0.6
+    },
+    {
+      "name": "Mat.6_1",
+      "color": [
+        0.06,
+        0.065,
+        0.07,
+        1
+      ],
+      "metallic": 0.25,
+      "smoothness": 0.6
+    },
+    {
+      "name": "Mat.7_1",
+      "color": [
+        0.06,
+        0.065,
+        0.07,
+        1
+      ],
+      "metallic": 0.25,
+      "smoothness": 0.6
+    },
+    {
+      "name": "Mat.8_1",
+      "color": [
+        0.06,
+        0.065,
+        0.07,
+        1
+      ],
+      "metallic": 0.25,
+      "smoothness": 0.6
+    },
+    {
+      "name": "Material",
+      "color": [
+        0.06,
+        0.065,
+        0.07,
+        1
+      ],
+      "metallic": 0.25,
+      "smoothness": 0.6
+    },
+    {
+      "name": "Matt carbon_1",
+      "color": [
+        0.04,
+        0.05,
+        0.055,
+        1
+      ],
+      "metallic": 0.2,
+      "smoothness": 0.62
+    },
+    {
+      "name": "Red Plastic_1",
+      "color": [
+        0.63,
+        0.008,
+        0.014,
+        1
+      ],
+      "metallic": 0.32,
+      "smoothness": 0.77
+    },
+    {
+      "name": "RedGlass_1",
+      "color": [
+        0.55,
+        0.008,
+        0.006,
+        1
+      ],
+      "metallic": 0.1,
+      "smoothness": 0.8
+    },
+    {
+      "name": "rubber tire_1",
+      "color": [
+        0.018,
+        0.022,
+        0.026,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.30000000000000004
+    },
+    {
+      "name": "Silver_1",
+      "color": [
+        0.6,
+        0.65,
+        0.7,
+        1
+      ],
+      "metallic": 0.8,
+      "smoothness": 0.76
+    },
+    {
+      "name": "Tailight_1",
+      "color": [
+        0.55,
+        0.008,
+        0.006,
+        1
+      ],
+      "metallic": 0.1,
+      "smoothness": 0.8
+    },
+    {
+      "name": "TintedGlass_1",
+      "color": [
+        0.035,
+        0.075,
+        0.09,
+        1
+      ],
+      "metallic": 0.45,
+      "smoothness": 0.88
+    }
+  ],
+  "source_mapping": [
+    {
+      "source": "_DC_Shell",
+      "mesh": "_DC_Shell_L",
+      "part": "wheel_RL"
+    },
+    {
+      "source": "_DC_Shell",
+      "mesh": "_DC_Shell_R",
+      "part": "wheel_RR"
+    },
+    {
+      "source": "_DC_Shell_1",
+      "mesh": "_DC_Shell_1_L",
+      "part": "wheel_RL"
+    },
+    {
+      "source": "_DC_Shell_1",
+      "mesh": "_DC_Shell_1_R",
+      "part": "wheel_RR"
+    },
+    {
+      "source": "_DC_Shell_1_1",
+      "mesh": "_DC_Shell_1_1_L",
+      "part": "wheel_FL"
+    },
+    {
+      "source": "_DC_Shell_1_1",
+      "mesh": "_DC_Shell_1_1_R",
+      "part": "wheel_FR"
+    },
+    {
+      "source": "_DC_Shell_2",
+      "mesh": "_DC_Shell_2_L",
+      "part": "wheel_FL"
+    },
+    {
+      "source": "_DC_Shell_2",
+      "mesh": "_DC_Shell_2_R",
+      "part": "wheel_FR"
+    },
+    {
+      "source": "_DC_Shell_20",
+      "mesh": "_DC_Shell_20_L",
+      "part": "wheel_RL"
+    },
+    {
+      "source": "_DC_Shell_20",
+      "mesh": "_DC_Shell_20_R",
+      "part": "wheel_RR"
+    },
+    {
+      "source": "_DC_Shell_20_1",
+      "mesh": "_DC_Shell_20_1_L",
+      "part": "wheel_FL"
+    },
+    {
+      "source": "_DC_Shell_20_1",
+      "mesh": "_DC_Shell_20_1_R",
+      "part": "wheel_FR"
+    },
+    {
+      "source": "_DC_Shell_23",
+      "mesh": "_DC_Shell_23_L",
+      "part": "wheel_RL"
+    },
+    {
+      "source": "_DC_Shell_23",
+      "mesh": "_DC_Shell_23_R",
+      "part": "wheel_RR"
+    },
+    {
+      "source": "_DC_Shell_23_1",
+      "mesh": "_DC_Shell_23_1_L",
+      "part": "wheel_FL"
+    },
+    {
+      "source": "_DC_Shell_23_1",
+      "mesh": "_DC_Shell_23_1_R",
+      "part": "wheel_FR"
+    },
+    {
+      "source": "body_badge",
+      "mesh": "body_badge",
+      "part": "body"
+    },
+    {
+      "source": "body_badge_001",
+      "mesh": "body_badge_001",
+      "part": "body"
+    },
+    {
+      "source": "body_body",
+      "mesh": "body_body",
+      "part": "body"
+    },
+    {
+      "source": "body_detail_glass_clear",
+      "mesh": "body_detail_glass_clear",
+      "part": "body"
+    },
+    {
+      "source": "body_matte_frame_diff",
+      "mesh": "body_matte_frame_diff",
+      "part": "body"
+    },
+    {
+      "source": "body_metal",
+      "mesh": "body_metal",
+      "part": "body"
+    },
+    {
+      "source": "body_misc",
+      "mesh": "body_misc",
+      "part": "body"
+    },
+    {
+      "source": "body_plastic",
+      "mesh": "body_plastic",
+      "part": "body"
+    },
+    {
+      "source": "bumperF_body",
+      "mesh": "bumperF_body",
+      "part": "bumper_F"
+    },
+    {
+      "source": "bumperF_body_",
+      "mesh": "bumperF_body_",
+      "part": "bumper_F"
+    },
+    {
+      "source": "bumperR_body",
+      "mesh": "bumperR_body",
+      "part": "bumper_R"
+    },
+    {
+      "source": "bumperRa_metal",
+      "mesh": "bumperRa_metal",
+      "part": "bumper_R"
+    },
+    {
+      "source": "bumperRa_plastic",
+      "mesh": "bumperRa_plastic",
+      "part": "bumper_R"
+    },
+    {
+      "source": "cockpit_carpet",
+      "mesh": "cockpit_carpet",
+      "part": "body"
+    },
+    {
+      "source": "cockpit_carpet_001",
+      "mesh": "cockpit_carpet_001",
+      "part": "body"
+    },
+    {
+      "source": "cockpit_s_glassF_window_int",
+      "mesh": "cockpit_s_glassF_window_int",
+      "part": "body"
+    },
+    {
+      "source": "cockpit_s_glassLF_int",
+      "mesh": "cockpit_s_glassLF_int",
+      "part": "door_L"
+    },
+    {
+      "source": "cockpit_s_glassRF_int",
+      "mesh": "cockpit_s_glassRF_int",
+      "part": "door_R"
+    },
+    {
+      "source": "cockpit_s_hooda_body",
+      "mesh": "cockpit_s_hooda_body",
+      "part": "bonnet"
+    },
+    {
+      "source": "cockpit_s_interior_bump_leather",
+      "mesh": "cockpit_s_interior_bump_leather",
+      "part": "body"
+    },
+    {
+      "source": "cockpit_s_interior_bump_leather2",
+      "mesh": "cockpit_s_interior_bump_leather2",
+      "part": "body"
+    },
+    {
+      "source": "cockpit_s_interior_glass",
+      "mesh": "cockpit_s_interior_glass",
+      "part": "body"
+    },
+    {
+      "source": "cockpit_s_interior_solid",
+      "mesh": "cockpit_s_interior_solid",
+      "part": "body"
+    },
+    {
+      "source": "cockpit_s_mirrorL_body",
+      "mesh": "cockpit_s_mirrorL_body",
+      "part": "body"
+    },
+    {
+      "source": "cockpit_s_mirrorR_body",
+      "mesh": "cockpit_s_mirrorR_body",
+      "part": "body"
+    },
+    {
+      "source": "cp_airbag",
+      "mesh": "cp_airbag",
+      "part": "steering_wheel"
+    },
+    {
+      "source": "cp_airbag_2",
+      "mesh": "cp_airbag_2",
+      "part": "body"
+    },
+    {
+      "source": "CP_black_chrome_details_01",
+      "mesh": "CP_black_chrome_details_01",
+      "part": "body"
+    },
+    {
+      "source": "CP_black_chrome_details_01_001",
+      "mesh": "CP_black_chrome_details_01_001",
+      "part": "body"
+    },
+    {
+      "source": "cp_black_chrome_details_02",
+      "mesh": "cp_black_chrome_details_02",
+      "part": "body"
+    },
+    {
+      "source": "CP_chrome_badge_flags",
+      "mesh": "CP_chrome_badge_flags",
+      "part": "body"
+    },
+    {
+      "source": "cp_chrome_details_01",
+      "mesh": "cp_chrome_details_01",
+      "part": "body"
+    },
+    {
+      "source": "cp_chrome_details_02",
+      "mesh": "cp_chrome_details_02",
+      "part": "body"
+    },
+    {
+      "source": "cp_color_plastic",
+      "mesh": "cp_color_plastic",
+      "part": "body"
+    },
+    {
+      "source": "cp_color_plastic_001",
+      "mesh": "cp_color_plastic_001",
+      "part": "body"
+    },
+    {
+      "source": "cp_digit_gauge_bottom",
+      "mesh": "cp_digit_gauge_bottom",
+      "part": "body"
+    },
+    {
+      "source": "cp_digit_gauge_bottom_background",
+      "mesh": "cp_digit_gauge_bottom_background",
+      "part": "body"
+    },
+    {
+      "source": "cp_digit_gauge_top",
+      "mesh": "cp_digit_gauge_top",
+      "part": "body"
+    },
+    {
+      "source": "cp_digit_gauge_top_background",
+      "mesh": "cp_digit_gauge_top_background",
+      "part": "body"
+    },
+    {
+      "source": "cp_doorLF_color_plastic",
+      "mesh": "cp_doorLF_color_plastic",
+      "part": "door_L"
+    },
+    {
+      "source": "cp_doorRF_color_plastic",
+      "mesh": "cp_doorRF_color_plastic",
+      "part": "door_R"
+    },
+    {
+      "source": "cp_gauge_dashboard",
+      "mesh": "cp_gauge_dashboard",
+      "part": "body"
+    },
+    {
+      "source": "cp_gauge_plastic",
+      "mesh": "cp_gauge_plastic",
+      "part": "body"
+    },
+    {
+      "source": "cp_L_seat_color_plastic",
+      "mesh": "cp_L_seat_color_plastic",
+      "part": "seat_L"
+    },
+    {
+      "source": "cp_Lseat_badge",
+      "mesh": "cp_Lseat_badge",
+      "part": "seat_L"
+    },
+    {
+      "source": "cp_main_digit_gauge",
+      "mesh": "cp_main_digit_gauge",
+      "part": "body"
+    },
+    {
+      "source": "cp_R_seat_color_plastic",
+      "mesh": "cp_R_seat_color_plastic",
+      "part": "seat_R"
+    },
+    {
+      "source": "cp_Rseat_badge",
+      "mesh": "cp_Rseat_badge",
+      "part": "seat_R"
+    },
+    {
+      "source": "cp_Rseat_badge_001",
+      "mesh": "cp_Rseat_badge_001",
+      "part": "body"
+    },
+    {
+      "source": "cp_sw_knobs_colors",
+      "mesh": "cp_sw_knobs_colors",
+      "part": "steering_wheel"
+    },
+    {
+      "source": "Default",
+      "mesh": "Default_L",
+      "part": "wheel_RL"
+    },
+    {
+      "source": "Default",
+      "mesh": "Default_R",
+      "part": "wheel_RR"
+    },
+    {
+      "source": "Default_1",
+      "mesh": "Default_1_L",
+      "part": "wheel_FL"
+    },
+    {
+      "source": "Default_1",
+      "mesh": "Default_1_R",
+      "part": "wheel_FR"
+    },
+    {
+      "source": "detail_glass_amber",
+      "mesh": "detail_glass_amber",
+      "part": "body"
+    },
+    {
+      "source": "doorcardLF_bump_leather",
+      "mesh": "doorcardLF_bump_leather",
+      "part": "door_L"
+    },
+    {
+      "source": "doorcardLF_bump_leather2_",
+      "mesh": "doorcardLF_bump_leather2_",
+      "part": "door_L"
+    },
+    {
+      "source": "doorcardLF_bump_plastic",
+      "mesh": "doorcardLF_bump_plastic",
+      "part": "door_L"
+    },
+    {
+      "source": "doorcardLF_bump_stitchingA",
+      "mesh": "doorcardLF_bump_stitchingA",
+      "part": "door_L"
+    },
+    {
+      "source": "doorcardLF_carbon_fiber2",
+      "mesh": "doorcardLF_carbon_fiber2",
+      "part": "door_L"
+    },
+    {
+      "source": "doorcardLF_rubber",
+      "mesh": "doorcardLF_rubber",
+      "part": "door_L"
+    },
+    {
+      "source": "doorcardRF_bump_leather",
+      "mesh": "doorcardRF_bump_leather",
+      "part": "door_R"
+    },
+    {
+      "source": "doorcardRF_bump_leather_001_001",
+      "mesh": "doorcardRF_bump_leather_001_001",
+      "part": "door_R"
+    },
+    {
+      "source": "doorcardRF_bump_plastic",
+      "mesh": "doorcardRF_bump_plastic",
+      "part": "door_R"
+    },
+    {
+      "source": "doorcardRF_bump_stitchingA",
+      "mesh": "doorcardRF_bump_stitchingA",
+      "part": "door_R"
+    },
+    {
+      "source": "doorcardRF_carbon_fiber2",
+      "mesh": "doorcardRF_carbon_fiber2",
+      "part": "door_R"
+    },
+    {
+      "source": "doorcardRF_rubber",
+      "mesh": "doorcardRF_rubber",
+      "part": "door_R"
+    },
+    {
+      "source": "doorLF_body",
+      "mesh": "doorLF_body",
+      "part": "door_L"
+    },
+    {
+      "source": "doorLF_emblem",
+      "mesh": "doorLF_emblem",
+      "part": "door_L"
+    },
+    {
+      "source": "doorLF_metal2_",
+      "mesh": "doorLF_metal2_",
+      "part": "door_L"
+    },
+    {
+      "source": "doorLF_misc",
+      "mesh": "doorLF_misc",
+      "part": "door_L"
+    },
+    {
+      "source": "doorLF_plastic",
+      "mesh": "doorLF_plastic",
+      "part": "door_L"
+    },
+    {
+      "source": "doorRF_body",
+      "mesh": "doorRF_body",
+      "part": "door_R"
+    },
+    {
+      "source": "doorRF_emblem",
+      "mesh": "doorRF_emblem",
+      "part": "door_R"
+    },
+    {
+      "source": "doorRF_metal2",
+      "mesh": "doorRF_metal2",
+      "part": "door_R"
+    },
+    {
+      "source": "doorRF_misc",
+      "mesh": "doorRF_misc",
+      "part": "door_R"
+    },
+    {
+      "source": "doorRF_plastic",
+      "mesh": "doorRF_plastic",
+      "part": "door_R"
+    },
+    {
+      "source": "engine_badge",
+      "mesh": "engine_badge",
+      "part": "engine"
+    },
+    {
+      "source": "engine_brushed_metal",
+      "mesh": "engine_brushed_metal",
+      "part": "engine"
+    },
+    {
+      "source": "engine_bump_chrome",
+      "mesh": "engine_bump_chrome",
+      "part": "engine"
+    },
+    {
+      "source": "engine_embossed_metalm",
+      "mesh": "engine_embossed_metalm",
+      "part": "engine"
+    },
+    {
+      "source": "engine_rubber",
+      "mesh": "engine_rubber",
+      "part": "engine"
+    },
+    {
+      "source": "engine_smooth_metal",
+      "mesh": "engine_smooth_metal",
+      "part": "engine"
+    },
+    {
+      "source": "engine_smooth_plastic",
+      "mesh": "engine_smooth_plastic",
+      "part": "engine"
+    },
+    {
+      "source": "engine_solid",
+      "mesh": "engine_solid",
+      "part": "engine"
+    },
+    {
+      "source": "enginebay_badge",
+      "mesh": "enginebay_badge",
+      "part": "body"
+    },
+    {
+      "source": "enginebay_rubber",
+      "mesh": "enginebay_rubber",
+      "part": "body"
+    },
+    {
+      "source": "enginebay_smooth_metal",
+      "mesh": "enginebay_smooth_metal",
+      "part": "body"
+    },
+    {
+      "source": "enginebay_smooth_plastic",
+      "mesh": "enginebay_smooth_plastic",
+      "part": "body"
+    },
+    {
+      "source": "exhausta_matte_colors",
+      "mesh": "exhausta_matte_colors",
+      "part": "bumper_R"
+    },
+    {
+      "source": "ext_diff_blackplane",
+      "mesh": "ext_diff_blackplane",
+      "part": "bumper_R"
+    },
+    {
+      "source": "ext_wing_chrome_details_01",
+      "mesh": "ext_wing_chrome_details_01",
+      "part": "rear_wing"
+    },
+    {
+      "source": "ext_wing_chrome_details_02",
+      "mesh": "ext_wing_chrome_details_02",
+      "part": "rear_wing"
+    },
+    {
+      "source": "fer_enzo_02_cockpit_s_glassF_matte_colors_",
+      "mesh": "fer_enzo_02_cockpit_s_glassF_matte_colors_",
+      "part": "body"
+    },
+    {
+      "source": "fer_enzo_02_cockpit_s_interior_bump_metal2_",
+      "mesh": "fer_enzo_02_cockpit_s_interior_bump_metal2_",
+      "part": "body"
+    },
+    {
+      "source": "fer_enzo_02_cockpit_s_interior_bump_metal_",
+      "mesh": "fer_enzo_02_cockpit_s_interior_bump_metal_",
+      "part": "body"
+    },
+    {
+      "source": "fer_enzo_02_cockpit_s_interior_bump_metal__001",
+      "mesh": "fer_enzo_02_cockpit_s_interior_bump_metal__001",
+      "part": "body"
+    },
+    {
+      "source": "fer_enzo_02_cockpit_s_interior_bump_plastic3_",
+      "mesh": "fer_enzo_02_cockpit_s_interior_bump_plastic3_",
+      "part": "body"
+    },
+    {
+      "source": "fer_enzo_02_cockpit_s_interior_bump_plastic4_",
+      "mesh": "fer_enzo_02_cockpit_s_interior_bump_plastic4_",
+      "part": "body"
+    },
+    {
+      "source": "fer_enzo_02_cockpit_s_interior_bump_plastic_",
+      "mesh": "fer_enzo_02_cockpit_s_interior_bump_plastic_",
+      "part": "body"
+    },
+    {
+      "source": "fer_enzo_02_cockpit_s_interior_carbon_fiber2_",
+      "mesh": "fer_enzo_02_cockpit_s_interior_carbon_fiber2_",
+      "part": "body"
+    },
+    {
+      "source": "fer_enzo_02_cockpit_s_interior_chrome_",
+      "mesh": "fer_enzo_02_cockpit_s_interior_chrome_",
+      "part": "body"
+    },
+    {
+      "source": "fer_enzo_02_cockpit_s_interior_embossed_leather_",
+      "mesh": "fer_enzo_02_cockpit_s_interior_embossed_leather_",
+      "part": "body"
+    },
+    {
+      "source": "fer_enzo_02_cockpit_s_interior_rubber_",
+      "mesh": "fer_enzo_02_cockpit_s_interior_rubber_",
+      "part": "body"
+    },
+    {
+      "source": "fer_enzo_02_cockpit_s_interior_rubber__001",
+      "mesh": "fer_enzo_02_cockpit_s_interior_rubber__001",
+      "part": "body"
+    },
+    {
+      "source": "fer_enzo_02_cockpit_s_interior_smooth_metal_",
+      "mesh": "fer_enzo_02_cockpit_s_interior_smooth_metal_",
+      "part": "body"
+    },
+    {
+      "source": "fer_enzo_02_cockpit_s_interior_smooth_metal__001",
+      "mesh": "fer_enzo_02_cockpit_s_interior_smooth_metal__001",
+      "part": "body"
+    },
+    {
+      "source": "fer_enzo_02_cockpit_s_interior_smooth_plastic_",
+      "mesh": "fer_enzo_02_cockpit_s_interior_smooth_plastic_",
+      "part": "body"
+    },
+    {
+      "source": "fer_enzo_02_cockpit_s_interior_smooth_plastic__001",
+      "mesh": "fer_enzo_02_cockpit_s_interior_smooth_plastic__001",
+      "part": "body"
+    },
+    {
+      "source": "fer_enzo_02_cockpit_s_mirrorL_black_",
+      "mesh": "fer_enzo_02_cockpit_s_mirrorL_black_",
+      "part": "body"
+    },
+    {
+      "source": "fer_enzo_02_cockpit_s_mirrorL_rubber_trim_",
+      "mesh": "fer_enzo_02_cockpit_s_mirrorL_rubber_trim_",
+      "part": "body"
+    },
+    {
+      "source": "fer_enzo_02_cockpit_s_mirrorR_black_",
+      "mesh": "fer_enzo_02_cockpit_s_mirrorR_black_",
+      "part": "body"
+    },
+    {
+      "source": "fer_enzo_02_cockpit_s_mirrorR_rubber_trim_",
+      "mesh": "fer_enzo_02_cockpit_s_mirrorR_rubber_trim_",
+      "part": "body"
+    },
+    {
+      "source": "fer_enzo_02_cockpit_s_seatL_bump_metal2_",
+      "mesh": "fer_enzo_02_cockpit_s_seatL_bump_metal2_",
+      "part": "seat_L"
+    },
+    {
+      "source": "fer_enzo_02_cockpit_s_seatL_bump_plastic5_",
+      "mesh": "fer_enzo_02_cockpit_s_seatL_bump_plastic5_",
+      "part": "seat_L"
+    },
+    {
+      "source": "fer_enzo_02_cockpit_s_seatL_carbon_fiber2_",
+      "mesh": "fer_enzo_02_cockpit_s_seatL_carbon_fiber2_",
+      "part": "seat_L"
+    },
+    {
+      "source": "fer_enzo_02_cockpit_s_seatL_smooth_metal_",
+      "mesh": "fer_enzo_02_cockpit_s_seatL_smooth_metal_",
+      "part": "seat_L"
+    },
+    {
+      "source": "fer_enzo_02_cockpit_s_seatR_bump_metal2_",
+      "mesh": "fer_enzo_02_cockpit_s_seatR_bump_metal2_",
+      "part": "seat_R"
+    },
+    {
+      "source": "fer_enzo_02_cockpit_s_seatR_bump_metal2__001",
+      "mesh": "fer_enzo_02_cockpit_s_seatR_bump_metal2__001",
+      "part": "body"
+    },
+    {
+      "source": "fer_enzo_02_cockpit_s_seatR_bump_plastic5_",
+      "mesh": "fer_enzo_02_cockpit_s_seatR_bump_plastic5_",
+      "part": "seat_R"
+    },
+    {
+      "source": "fer_enzo_02_cockpit_s_seatR_carbon_fiber2_",
+      "mesh": "fer_enzo_02_cockpit_s_seatR_carbon_fiber2_",
+      "part": "seat_R"
+    },
+    {
+      "source": "fer_enzo_02_cockpit_s_seatR_smooth_metal_",
+      "mesh": "fer_enzo_02_cockpit_s_seatR_smooth_metal_",
+      "part": "seat_R"
+    },
+    {
+      "source": "fer_enzo_02_cockpit_s_speed_mid_bump_plastic5_",
+      "mesh": "fer_enzo_02_cockpit_s_speed_mid_bump_plastic5_",
+      "part": "body"
+    },
+    {
+      "source": "fer_enzo_02_cockpit_s_speed_min_bump_plastic5_",
+      "mesh": "fer_enzo_02_cockpit_s_speed_min_bump_plastic5_",
+      "part": "body"
+    },
+    {
+      "source": "fer_enzo_02_cockpit_s_steering_wheel_bump_plastic5_",
+      "mesh": "fer_enzo_02_cockpit_s_steering_wheel_bump_plastic5_",
+      "part": "steering_wheel"
+    },
+    {
+      "source": "fer_enzo_02_cockpit_s_steering_wheel_carbon_fiber2_",
+      "mesh": "fer_enzo_02_cockpit_s_steering_wheel_carbon_fiber2_",
+      "part": "steering_wheel"
+    },
+    {
+      "source": "fer_enzo_02_cockpit_s_tach_max_bump_plastic5_",
+      "mesh": "fer_enzo_02_cockpit_s_tach_max_bump_plastic5_",
+      "part": "body"
+    },
+    {
+      "source": "fer_enzo_02_cockpit_s_tach_min_bump_plastic5_",
+      "mesh": "fer_enzo_02_cockpit_s_tach_min_bump_plastic5_",
+      "part": "body"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_badgeF_emblem_",
+      "mesh": "fer_enzo_02_s_lod0_badgeF_emblem_",
+      "part": "body"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_badgeLF_emblem_",
+      "mesh": "fer_enzo_02_s_lod0_badgeLF_emblem_",
+      "part": "body"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_badgeR_emblem_",
+      "mesh": "fer_enzo_02_s_lod0_badgeR_emblem_",
+      "part": "body"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_badgeRF_emblem_",
+      "mesh": "fer_enzo_02_s_lod0_badgeRF_emblem_",
+      "part": "body"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_body_black_",
+      "mesh": "fer_enzo_02_s_lod0_body_black_",
+      "part": "body"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_body_carbon_fiber_",
+      "mesh": "fer_enzo_02_s_lod0_body_carbon_fiber_",
+      "part": "body"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_body_chrome_",
+      "mesh": "fer_enzo_02_s_lod0_body_chrome_",
+      "part": "body"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_body_frame_",
+      "mesh": "fer_enzo_02_s_lod0_body_frame_",
+      "part": "body"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_body_grille1_",
+      "mesh": "fer_enzo_02_s_lod0_body_grille1_",
+      "part": "body"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_body_rubber_trim_",
+      "mesh": "fer_enzo_02_s_lod0_body_rubber_trim_",
+      "part": "body"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_body_textured_reflector_",
+      "mesh": "fer_enzo_02_s_lod0_body_textured_reflector_",
+      "part": "body"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_boot_solid_",
+      "mesh": "fer_enzo_02_s_lod0_boot_solid_",
+      "part": "body"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_bumperFa_black_",
+      "mesh": "fer_enzo_02_s_lod0_bumperFa_black_",
+      "part": "bumper_F"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_bumperFa_frame_",
+      "mesh": "fer_enzo_02_s_lod0_bumperFa_frame_",
+      "part": "bumper_F"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_bumperFa_grille1_",
+      "mesh": "fer_enzo_02_s_lod0_bumperFa_grille1_",
+      "part": "bumper_F"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_bumperFa_matte_colors_",
+      "mesh": "fer_enzo_02_s_lod0_bumperFa_matte_colors_",
+      "part": "bumper_F"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_bumperRa_frame_",
+      "mesh": "fer_enzo_02_s_lod0_bumperRa_frame_",
+      "part": "bumper_R"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_bumperRa_grille1_",
+      "mesh": "fer_enzo_02_s_lod0_bumperRa_grille1_",
+      "part": "bumper_R"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_bumperRa_matte_colors_",
+      "mesh": "fer_enzo_02_s_lod0_bumperRa_matte_colors_",
+      "part": "bumper_R"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_bumperRa_reverse_light_",
+      "mesh": "fer_enzo_02_s_lod0_bumperRa_reverse_light_",
+      "part": "bumper_R"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_bumperRa_rubber_trim_",
+      "mesh": "fer_enzo_02_s_lod0_bumperRa_rubber_trim_",
+      "part": "bumper_R"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_bumperRa_textured_reflector_",
+      "mesh": "fer_enzo_02_s_lod0_bumperRa_textured_reflector_",
+      "part": "bumper_R"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_doorcardLF_solid_",
+      "mesh": "fer_enzo_02_s_lod0_doorcardLF_solid_",
+      "part": "door_L"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_doorcardRF_solid_",
+      "mesh": "fer_enzo_02_s_lod0_doorcardRF_solid_",
+      "part": "door_R"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_doorLF_black_glass_",
+      "mesh": "fer_enzo_02_s_lod0_doorLF_black_glass_",
+      "part": "door_L"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_doorLF_matte_colors_",
+      "mesh": "fer_enzo_02_s_lod0_doorLF_matte_colors_",
+      "part": "door_L"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_doorLF_rubber_trim_",
+      "mesh": "fer_enzo_02_s_lod0_doorLF_rubber_trim_",
+      "part": "door_L"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_doorRF_black_glass_",
+      "mesh": "fer_enzo_02_s_lod0_doorRF_black_glass_",
+      "part": "door_R"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_doorRF_matte_colors_",
+      "mesh": "fer_enzo_02_s_lod0_doorRF_matte_colors_",
+      "part": "door_R"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_doorRF_rubber_trim_",
+      "mesh": "fer_enzo_02_s_lod0_doorRF_rubber_trim_",
+      "part": "door_R"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_engine_bump_metal2_",
+      "mesh": "fer_enzo_02_s_lod0_engine_bump_metal2_",
+      "part": "engine"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_engine_bump_metal3_",
+      "mesh": "fer_enzo_02_s_lod0_engine_bump_metal3_",
+      "part": "engine"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_engine_bump_metal4_",
+      "mesh": "fer_enzo_02_s_lod0_engine_bump_metal4_",
+      "part": "engine"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_engine_bump_metal5_",
+      "mesh": "fer_enzo_02_s_lod0_engine_bump_metal5_",
+      "part": "engine"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_engine_bump_metal_",
+      "mesh": "fer_enzo_02_s_lod0_engine_bump_metal_",
+      "part": "engine"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_engine_bump_plastic2_",
+      "mesh": "fer_enzo_02_s_lod0_engine_bump_plastic2_",
+      "part": "engine"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_engine_bump_plastic4_",
+      "mesh": "fer_enzo_02_s_lod0_engine_bump_plastic4_",
+      "part": "engine"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_engine_bump_plastic5_",
+      "mesh": "fer_enzo_02_s_lod0_engine_bump_plastic5_",
+      "part": "engine"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_engine_carbon_fiber2_",
+      "mesh": "fer_enzo_02_s_lod0_engine_carbon_fiber2_",
+      "part": "engine"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_engine_carbon_fiber_",
+      "mesh": "fer_enzo_02_s_lod0_engine_carbon_fiber_",
+      "part": "engine"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_engine_chrome_",
+      "mesh": "fer_enzo_02_s_lod0_engine_chrome_",
+      "part": "engine"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_enginebay_bump_metal3_",
+      "mesh": "fer_enzo_02_s_lod0_enginebay_bump_metal3_",
+      "part": "body"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_enginebay_bump_metal_",
+      "mesh": "fer_enzo_02_s_lod0_enginebay_bump_metal_",
+      "part": "body"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_enginebay_bump_plastic4_",
+      "mesh": "fer_enzo_02_s_lod0_enginebay_bump_plastic4_",
+      "part": "body"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_enginebay_bump_plastic_",
+      "mesh": "fer_enzo_02_s_lod0_enginebay_bump_plastic_",
+      "part": "body"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_enginebay_carbon_fiber2_",
+      "mesh": "fer_enzo_02_s_lod0_enginebay_carbon_fiber2_",
+      "part": "body"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_enginebay_solid_",
+      "mesh": "fer_enzo_02_s_lod0_enginebay_solid_",
+      "part": "body"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_exhausta_chrome_",
+      "mesh": "fer_enzo_02_s_lod0_exhausta_chrome_",
+      "part": "bumper_R"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_trunk_grille1_",
+      "mesh": "fer_enzo_02_s_lod0_trunk_grille1_",
+      "part": "engine_cover"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_winga_carbon_fiber_",
+      "mesh": "fer_enzo_02_s_lod0_winga_carbon_fiber_",
+      "part": "rear_wing"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_winga_chrome2_",
+      "mesh": "fer_enzo_02_s_lod0_winga_chrome2_",
+      "part": "rear_wing"
+    },
+    {
+      "source": "fer_enzo_02_s_lod0_winga_frame_",
+      "mesh": "fer_enzo_02_s_lod0_winga_frame_",
+      "part": "rear_wing"
+    },
+    {
+      "source": "fer_enzo_040_cockpit_s_glassF_black_glass_",
+      "mesh": "fer_enzo_040_cockpit_s_glassF_black_glass_",
+      "part": "body"
+    },
+    {
+      "source": "fer_enzo_040_cockpit_s_glassF_black_glass__001",
+      "mesh": "fer_enzo_040_cockpit_s_glassF_black_glass__001",
+      "part": "body"
+    },
+    {
+      "source": "FL_carbon_fiber",
+      "mesh": "FL_carbon_fiber",
+      "part": "body"
+    },
+    {
+      "source": "FL_glass",
+      "mesh": "FL_glass",
+      "part": "body"
+    },
+    {
+      "source": "FL_glass_clear_2",
+      "mesh": "FL_glass_clear_2",
+      "part": "body"
+    },
+    {
+      "source": "FL_head_light",
+      "mesh": "FL_head_light",
+      "part": "body"
+    },
+    {
+      "source": "FL_reflector",
+      "mesh": "FL_reflector",
+      "part": "body"
+    },
+    {
+      "source": "FL_reflector_obj1",
+      "mesh": "FL_reflector_obj1",
+      "part": "body"
+    },
+    {
+      "source": "front_bumper_matter_plastic",
+      "mesh": "front_bumper_matter_plastic",
+      "part": "bumper_F"
+    },
+    {
+      "source": "FUEL_LED_0",
+      "mesh": "FUEL_LED_0",
+      "part": "body"
+    },
+    {
+      "source": "FUEL_LED_1",
+      "mesh": "FUEL_LED_1",
+      "part": "body"
+    },
+    {
+      "source": "FUEL_LED_2",
+      "mesh": "FUEL_LED_2",
+      "part": "body"
+    },
+    {
+      "source": "FUEL_LED_3",
+      "mesh": "FUEL_LED_3",
+      "part": "body"
+    },
+    {
+      "source": "FUEL_LED_4",
+      "mesh": "FUEL_LED_4",
+      "part": "body"
+    },
+    {
+      "source": "FUEL_LED_5",
+      "mesh": "FUEL_LED_5",
+      "part": "body"
+    },
+    {
+      "source": "FUEL_LED_6",
+      "mesh": "FUEL_LED_6",
+      "part": "body"
+    },
+    {
+      "source": "FUEL_LED_7",
+      "mesh": "FUEL_LED_7",
+      "part": "body"
+    },
+    {
+      "source": "glassLR_window_int",
+      "mesh": "glassLR_window_int",
+      "part": "door_L"
+    },
+    {
+      "source": "glassR_window_int",
+      "mesh": "glassR_window_int",
+      "part": "engine_cover"
+    },
+    {
+      "source": "glassRR_window_int",
+      "mesh": "glassRR_window_int",
+      "part": "door_R"
+    },
+    {
+      "source": "hooda_badge",
+      "mesh": "hooda_badge",
+      "part": "bonnet"
+    },
+    {
+      "source": "interior_bump_plastic2",
+      "mesh": "interior_bump_plastic2",
+      "part": "body"
+    },
+    {
+      "source": "interior_bump_plastic5",
+      "mesh": "interior_bump_plastic5",
+      "part": "body"
+    },
+    {
+      "source": "interior_bump_stitchingA",
+      "mesh": "interior_bump_stitchingA",
+      "part": "body"
+    },
+    {
+      "source": "interior_digital_gauge",
+      "mesh": "interior_digital_gauge",
+      "part": "body"
+    },
+    {
+      "source": "interior_embossed_badge_Enzo",
+      "mesh": "interior_embossed_badge_Enzo",
+      "part": "body"
+    },
+    {
+      "source": "interior_embossed_badge_Enzo_001",
+      "mesh": "interior_embossed_badge_Enzo_001",
+      "part": "body"
+    },
+    {
+      "source": "interior_embossed_metal",
+      "mesh": "interior_embossed_metal",
+      "part": "body"
+    },
+    {
+      "source": "interior_embossed_metal_001",
+      "mesh": "interior_embossed_metal_001",
+      "part": "body"
+    },
+    {
+      "source": "interior_embossed_plastic_01",
+      "mesh": "interior_embossed_plastic_01",
+      "part": "body"
+    },
+    {
+      "source": "interior_reflector",
+      "mesh": "interior_reflector",
+      "part": "body"
+    },
+    {
+      "source": "interior_reflector_001",
+      "mesh": "interior_reflector_001",
+      "part": "body"
+    },
+    {
+      "source": "interior_tiling_cloth",
+      "mesh": "interior_tiling_cloth",
+      "part": "body"
+    },
+    {
+      "source": "LED_0",
+      "mesh": "LED_0",
+      "part": "steering_wheel"
+    },
+    {
+      "source": "LED_1",
+      "mesh": "LED_1",
+      "part": "steering_wheel"
+    },
+    {
+      "source": "LED_2",
+      "mesh": "LED_2",
+      "part": "steering_wheel"
+    },
+    {
+      "source": "LED_3",
+      "mesh": "LED_3",
+      "part": "steering_wheel"
+    },
+    {
+      "source": "LED_4",
+      "mesh": "LED_4",
+      "part": "steering_wheel"
+    },
+    {
+      "source": "LED_doorcardLF_badge",
+      "mesh": "LED_doorcardLF_badge",
+      "part": "door_L"
+    },
+    {
+      "source": "LED_doorcardRF_badge",
+      "mesh": "LED_doorcardRF_badge",
+      "part": "door_R"
+    },
+    {
+      "source": "LED_interior_badges",
+      "mesh": "LED_interior_badges",
+      "part": "body"
+    },
+    {
+      "source": "LED_interior_badges_002",
+      "mesh": "LED_interior_badges_002",
+      "part": "body"
+    },
+    {
+      "source": "LED_steering_wheel_badges",
+      "mesh": "LED_steering_wheel_badges",
+      "part": "steering_wheel"
+    },
+    {
+      "source": "LED_steering_wheel_badges_002",
+      "mesh": "LED_steering_wheel_badges_002",
+      "part": "steering_wheel"
+    },
+    {
+      "source": "mirrc",
+      "mesh": "mirrc",
+      "part": "body"
+    },
+    {
+      "source": "mirrl",
+      "mesh": "mirrl",
+      "part": "body"
+    },
+    {
+      "source": "mirrr",
+      "mesh": "mirrr",
+      "part": "body"
+    },
+    {
+      "source": "mom_ten_s_wheellf",
+      "mesh": "mom_ten_s_wheellf_L",
+      "part": "wheel_RL"
+    },
+    {
+      "source": "mom_ten_s_wheellf",
+      "mesh": "mom_ten_s_wheellf_R",
+      "part": "wheel_RR"
+    },
+    {
+      "source": "mom_ten_s_wheellf_1",
+      "mesh": "mom_ten_s_wheellf_1_L",
+      "part": "wheel_FL"
+    },
+    {
+      "source": "mom_ten_s_wheellf_1",
+      "mesh": "mom_ten_s_wheellf_1_R",
+      "part": "wheel_FR"
+    },
+    {
+      "source": "RL_glass_clear",
+      "mesh": "RL_glass_clear",
+      "part": "bumper_R"
+    },
+    {
+      "source": "RL_glass_red",
+      "mesh": "RL_glass_red",
+      "part": "bumper_R"
+    },
+    {
+      "source": "RL_lights_1",
+      "mesh": "RL_lights_1",
+      "part": "bumper_R"
+    },
+    {
+      "source": "RL_lights_2",
+      "mesh": "RL_lights_2",
+      "part": "bumper_R"
+    },
+    {
+      "source": "RL_main_brake_light_ALT",
+      "mesh": "RL_main_brake_light_ALT",
+      "part": "bumper_R"
+    },
+    {
+      "source": "RL_wing_brake_LED",
+      "mesh": "RL_wing_brake_LED",
+      "part": "rear_wing"
+    },
+    {
+      "source": "RL_wing_brake_light",
+      "mesh": "RL_wing_brake_light",
+      "part": "rear_wing"
+    },
+    {
+      "source": "s_seatL_bump_stitchingA",
+      "mesh": "s_seatL_bump_stitchingA",
+      "part": "seat_L"
+    },
+    {
+      "source": "s_steering_wheel_smooth_plastic",
+      "mesh": "s_steering_wheel_smooth_plastic",
+      "part": "steering_wheel"
+    },
+    {
+      "source": "seatL_bump_leather",
+      "mesh": "seatL_bump_leather",
+      "part": "seat_L"
+    },
+    {
+      "source": "seatL_bump_leather2",
+      "mesh": "seatL_bump_leather2",
+      "part": "seat_L"
+    },
+    {
+      "source": "seatR_bump_leather",
+      "mesh": "seatR_bump_leather",
+      "part": "seat_R"
+    },
+    {
+      "source": "seatR_bump_leather2",
+      "mesh": "seatR_bump_leather2",
+      "part": "seat_R"
+    },
+    {
+      "source": "seatR_bump_stitchingA",
+      "mesh": "seatR_bump_stitchingA",
+      "part": "seat_R"
+    },
+    {
+      "source": "Solid1_DC_Shell",
+      "mesh": "Solid1_DC_Shell_L",
+      "part": "wheel_RL"
+    },
+    {
+      "source": "Solid1_DC_Shell",
+      "mesh": "Solid1_DC_Shell_R",
+      "part": "wheel_RR"
+    },
+    {
+      "source": "Solid1_DC_Shell_1",
+      "mesh": "Solid1_DC_Shell_1_L",
+      "part": "wheel_RL"
+    },
+    {
+      "source": "Solid1_DC_Shell_1",
+      "mesh": "Solid1_DC_Shell_1_R",
+      "part": "wheel_RR"
+    },
+    {
+      "source": "Solid1_DC_Shell_1_1",
+      "mesh": "Solid1_DC_Shell_1_1_L",
+      "part": "wheel_FL"
+    },
+    {
+      "source": "Solid1_DC_Shell_1_1",
+      "mesh": "Solid1_DC_Shell_1_1_R",
+      "part": "wheel_FR"
+    },
+    {
+      "source": "Solid1_DC_Shell_2",
+      "mesh": "Solid1_DC_Shell_2_L",
+      "part": "wheel_RL"
+    },
+    {
+      "source": "Solid1_DC_Shell_2",
+      "mesh": "Solid1_DC_Shell_2_R",
+      "part": "wheel_RR"
+    },
+    {
+      "source": "Solid1_DC_Shell_2_1",
+      "mesh": "Solid1_DC_Shell_2_1_L",
+      "part": "wheel_FL"
+    },
+    {
+      "source": "Solid1_DC_Shell_2_1",
+      "mesh": "Solid1_DC_Shell_2_1_R",
+      "part": "wheel_FR"
+    },
+    {
+      "source": "Solid1_DC_Shell_3",
+      "mesh": "Solid1_DC_Shell_3_L",
+      "part": "wheel_FL"
+    },
+    {
+      "source": "Solid1_DC_Shell_3",
+      "mesh": "Solid1_DC_Shell_3_R",
+      "part": "wheel_FR"
+    },
+    {
+      "source": "speed_plastic",
+      "mesh": "speed_plastic",
+      "part": "body"
+    },
+    {
+      "source": "steering_wheel_bump_leather",
+      "mesh": "steering_wheel_bump_leather",
+      "part": "steering_wheel"
+    },
+    {
+      "source": "steering_wheel_bump_stitchingA",
+      "mesh": "steering_wheel_bump_stitchingA",
+      "part": "steering_wheel"
+    },
+    {
+      "source": "steering_wheel_leather_perforated",
+      "mesh": "steering_wheel_leather_perforated",
+      "part": "steering_wheel"
+    },
+    {
+      "source": "SW_brushed_metal",
+      "mesh": "SW_brushed_metal",
+      "part": "steering_wheel"
+    },
+    {
+      "source": "SW_digital_gauge",
+      "mesh": "SW_digital_gauge",
+      "part": "steering_wheel"
+    },
+    {
+      "source": "tach_plastic5",
+      "mesh": "tach_plastic5",
+      "part": "body"
+    },
+    {
+      "source": "trunk_black_glass",
+      "mesh": "trunk_black_glass",
+      "part": "engine_cover"
+    },
+    {
+      "source": "trunk_body",
+      "mesh": "trunk_body",
+      "part": "engine_cover"
+    },
+    {
+      "source": "trunk_carbon_fiber_",
+      "mesh": "trunk_carbon_fiber_",
+      "part": "engine_cover"
+    },
+    {
+      "source": "trunk_frame_",
+      "mesh": "trunk_frame_",
+      "part": "engine_cover"
+    },
+    {
+      "source": "trunk_matte_colors",
+      "mesh": "trunk_matte_colors",
+      "part": "engine_cover"
+    },
+    {
+      "source": "trunk_metal",
+      "mesh": "trunk_metal",
+      "part": "engine_cover"
+    },
+    {
+      "source": "trunk_misc",
+      "mesh": "trunk_misc",
+      "part": "engine_cover"
+    },
+    {
+      "source": "wing_body",
+      "mesh": "wing_body",
+      "part": "rear_wing"
+    },
+    {
+      "source": "wing_metal_bolt",
+      "mesh": "wing_metal_bolt",
+      "part": "rear_wing"
+    },
+    {
+      "source": "winga_arm_metal",
+      "mesh": "winga_arm_metal",
+      "part": "rear_wing"
+    },
+    {
+      "source": "winga_metal",
+      "mesh": "winga_metal",
+      "part": "rear_wing"
+    },
+    {
+      "source": "winga_suspension_metal",
+      "mesh": "winga_suspension_metal",
+      "part": "rear_wing"
+    },
+    {
+      "source": "wiper_b",
+      "mesh": "wiper_b",
+      "part": "body"
+    },
+    {
+      "source": "wiper_b1",
+      "mesh": "wiper_b1",
+      "part": "body"
+    },
+    {
+      "source": "wiper_b2",
+      "mesh": "wiper_b2",
+      "part": "body"
+    },
+    {
+      "source": "wiper_b3",
+      "mesh": "wiper_b3",
+      "part": "body"
+    },
+    {
+      "source": "wiper_b4",
+      "mesh": "wiper_b4",
+      "part": "body"
+    },
+    {
+      "source": "wiper_b5",
+      "mesh": "wiper_b5",
+      "part": "body"
+    },
+    {
+      "source": "wiper_c",
+      "mesh": "wiper_c",
+      "part": "body"
+    }
+  ],
+  "notes": [
+    "Replacement materials: source MTL missing",
+    "Blender +Z up; vehicle front -X; Unity FBX importer converts axes",
+    "Wheel left/right determined by source door LF/RF side",
+    "Hidden CAD brake detail reduced to 25%; original retained"
+  ]
+}
