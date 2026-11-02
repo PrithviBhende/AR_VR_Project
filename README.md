@@ -73,7 +73,7 @@ A high-fidelity automotive hangar featuring Universal Render Pipeline (URP Forwa
 
 ---
 
-### 2. Holographic Glass UI & Component Inspection
+### 2. Component Inspection
 Click any component directly on the 3D car or select it from the scrollable assemblies sidebar. The selected component glows in vibrant cyan, and a frosted 9-slice glass specification card pops out with detailed material properties, aerodynamic purpose, and fitment clues.
 
 ![Component Inspection Mode](Evidence/showcase/04_component_inspection_hud.png)
@@ -101,13 +101,6 @@ Talk directly with an automotive tutor using on-device speech capture. Zeno supp
 
 ---
 
-### 6. Future Work: AR / VR Headset Integration (OpenXR)
-Architecture roadmap for transitioning from desktop mouse controls to full 6DoF optical hand tracking, 1:1 life-scale color passthrough mixed reality, and collaborative multi-user engineering inspection on Meta Quest 3 and Apple Vision Pro.
-
-![OpenXR Spatial Computing Pipeline](Evidence/vr_roadmap_diagram.png)
-
----
-
 ## 3D CAD & Asset Engineering Pipeline
 
 | Pipeline Stage | Tool | Technical Implementation |
@@ -121,31 +114,6 @@ Architecture roadmap for transitioning from desktop mouse controls to full 6DoF 
 ![Unity Editor Architecture](Evidence/showcase/02_unity_editor_architecture.png)
 
 ---
-
-## Presentation & Academic Deliverables
-
-A complete 9-slide widescreen (16:9) presentation has been created with a structured **2-slide allocation per team member**:
-
-* **PowerPoint Presentation Deck**: [`Ferrari_Enzo_Exploration_Lab.pptx`](Ferrari_Enzo_Exploration_Lab.pptx)
-* **Detailed Presentation Guide & Speaker Scripts**: [`presentation_guide.md`](presentation_guide.md)
-* **Milestone Documentation**: [`output/documentation/ARVR_50 Percent Milestone Report_230929332.pdf`](output/documentation/ARVR_50%20Percent%20Milestone%20Report_230929332.pdf)
-
-### 4-Person Presentation Distribution
-
-| Presenter | Slide | Topic & Core Focus |
-| :--- | :---: | :--- |
-| **Person 1** | **Slide 1** | **Project Overview & System Architecture** — Digital twin concept and tech stack. |
-| **Person 1** | **Slide 2** | **3D CAD Decomposition & Pivot Normalization** — Blender origin alignment and sub-assemblies. |
-| **Person 2** | **Slide 3** | **Real-Time Environment & PBR Shading** — Unity 6 URP, clearcoat paint, and turntable. |
-| **Person 2** | **Slide 4** | **Holographic Glass UI & Inspection** — 9-slice sci-fi glass HUD and spec cards. |
-| **Person 3** | **Slide 5** | **3D Exploded-View Kinematics** — Mathematical radial vectors and SmoothStep motion. |
-| **Person 3** | **Slide 6** | **Gamified Self-Assembly & Snapping** — Spatial tolerance checking and inventory tray. |
-| **Person 4** | **Slide 7** | **Zeno AI: Multimodal Voice Assistant** — Local Whisper wake-word and Gemini AI. |
-| **Person 4** | **Slide 8** | **Future Work: AR / VR Headset Integration** — OpenXR roadmap, 6DoF hand tracking. |
-| **All Team** | **Slide 9** | **Conclusion, Test Verification & Q&A** — 42/42 verification tests and live demo. |
-
----
-
 ## Automated Verification & Reliability
 
 The codebase includes an automated headless verification suite located in [`My project/Assets/Ferrari/Editor/FerrariVoiceVerification.cs`](My%20project/Assets/Ferrari/Editor/FerrariVoiceVerification.cs).
