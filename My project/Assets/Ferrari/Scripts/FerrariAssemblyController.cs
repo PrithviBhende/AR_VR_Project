@@ -25,7 +25,10 @@ namespace FerrariLab
         public int Revision { get; private set; }
         public string Status { get; private set; } = "Drag a part from the list to its matching target.";
         public IReadOnlyList<FerrariPart> Available => available;
-        public bool CanSnap => CurrentPart && CurrentPart.gameObject.activeSelf && Vector3.Distance(CurrentPart.transform.position,TargetPosition(CurrentPart)) <= SnapRadius;
+        // Tolerance is expressed in the original display coordinates, so tabletop scaling is consistent.
+        public bool CanSnap => CurrentPart && CurrentPart.gameObject.activeSelf &&
+            Vector3.Distance(inspection.displayRoot.InverseTransformPoint(CurrentPart.transform.position),
+                inspection.displayRoot.InverseTransformPoint(TargetPosition(CurrentPart))) <= SnapRadius;
         readonly HashSet<string> placed = new HashSet<string>();
         readonly List<FerrariPart> available = new List<FerrariPart>();
         FerrariPart[] candidates;
@@ -77,12 +80,40 @@ namespace FerrariLab
         }
         public bool BeginDrag(FerrariPart p,Vector2 screenPosition)
         {
+            if(!ReservePart(p))return false;
+            dragPlane=new Plane(inspection.viewCamera.transform.forward,TargetPosition(p));
+            DragPointer(screenPosition);return true;
+        }
+        bool ReservePart(FerrariPart p)
+        {
             if(!IsActive||IsBusy||!p||!available.Contains(p))return false;
             inspection.AutoRotate=false;inspection.Select(null);CurrentPart=p;PreviewPart=p;IsDragging=true;
             Access.RequestFor(p);
             p.RestoreAssembledPose();p.transform.localRotation=p.assembledLocalRotation*Quaternion.Euler(0,25,0);
-            dragPlane=new Plane(inspection.viewCamera.transform.forward,TargetPosition(p));
-            RefreshInventory();DragPointer(screenPosition);return true;
+            RefreshInventory();return true;
+        }
+        // A VR interactor supplies a world pose while the part stays under its original display parent.
+        public bool BeginWorldDrag(FerrariPart p,Vector3 worldPosition,Quaternion worldRotation)
+        {
+            if(!ReservePart(p))return false;
+            DragWorld(worldPosition,worldRotation);return true;
+        }
+        public void DragWorld(Vector3 worldPosition,Quaternion worldRotation)
+        {
+            if(!IsDragging||!CurrentPart)return;
+            CurrentPart.gameObject.SetActive(true);
+            CurrentPart.transform.rotation=worldRotation;
+            MoveHeldPart(worldPosition);
+        }
+        void MoveHeldPart(Vector3 worldPosition)
+        {
+            var local=inspection.displayRoot.InverseTransformPoint(worldPosition);
+            local.x=Mathf.Clamp(local.x,-5,5);local.z=Mathf.Clamp(local.z,-5,5);local.y=Mathf.Clamp(local.y,.16f,4.5f);
+            CurrentPart.transform.position=inspection.displayRoot.TransformPoint(local);
+            var bounds=inspection.BoundsOf(CurrentPart);
+            float floor=inspection.displayRoot.TransformPoint(new Vector3(0,.16f,0)).y;
+            if(bounds.min.y<floor)CurrentPart.transform.position+=Vector3.up*(floor-bounds.min.y);
+            Status=CanSnap?"IN RANGE — release to snap "+CurrentPart.displayName+" into place.":"Move "+CurrentPart.displayName+" closer to the marked target.";
         }
         public void DragPointer(Vector2 screenPosition)
         {
@@ -92,18 +123,22 @@ namespace FerrariLab
             if(!inView){Status="Move into the car view; release over the list to return this part.";return;}
             var ray=inspection.viewCamera.ScreenPointToRay(screenPosition);
             if(!dragPlane.Raycast(ray,out float enter))return;
-            var local=inspection.displayRoot.InverseTransformPoint(ray.GetPoint(enter));
-            local.x=Mathf.Clamp(local.x,-5,5);local.z=Mathf.Clamp(local.z,-5,5);local.y=Mathf.Clamp(local.y,.16f,4.5f);
-            CurrentPart.transform.position=inspection.displayRoot.TransformPoint(local);
-            var bounds=inspection.BoundsOf(CurrentPart);
-            if(bounds.min.y<.16f)CurrentPart.transform.position+=Vector3.up*(.16f-bounds.min.y);
-            Status=CanSnap?"IN RANGE — release to snap "+CurrentPart.displayName+" into place.":"Move "+CurrentPart.displayName+" closer to the marked target.";
+            MoveHeldPart(ray.GetPoint(enter));
         }
         public bool Release(Vector2 screenPosition)
         {
             if(!IsDragging||!CurrentPart)return false;
             DragPointer(screenPosition);
-            if(!inspection.viewCamera.pixelRect.Contains(screenPosition)||!CanSnap)
+            return FinishPlacement(inspection.viewCamera.pixelRect.Contains(screenPosition));
+        }
+        public bool ReleaseWorld()
+        {
+            if(!IsDragging||!CurrentPart)return false;
+            return FinishPlacement(true);
+        }
+        bool FinishPlacement(bool validView)
+        {
+            if(!validView||!CanSnap)
             {
                 string name=CurrentPart.displayName;CancelDrag();Status="Not close enough: "+name+" returned to the list.";return false;
             }

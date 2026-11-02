@@ -26,11 +26,11 @@ namespace FerrariLab.Editor
                 foreach(var t in car.GetComponentsInChildren<Transform>(true))t.gameObject.layer=31;
                 var parts=car.GetComponentsInChildren<FerrariPart>(true);
                 foreach(var p in parts)p.gameObject.SetActive(false);
-                var camera=new GameObject("Thumbnail Camera").AddComponent<Camera>();camera.enabled=false;camera.cullingMask=1<<31;camera.clearFlags=CameraClearFlags.SolidColor;camera.backgroundColor=new Color(.035f,.065f,.09f);camera.orthographic=true;camera.nearClipPlane=.01f;camera.farClipPlane=50;
+                var camera=new GameObject("Thumbnail Camera").AddComponent<Camera>();camera.enabled=false;camera.cullingMask=1<<31;camera.clearFlags=CameraClearFlags.SolidColor;camera.backgroundColor=new Color(0,0,0,0);camera.orthographic=true;camera.nearClipPlane=.01f;camera.farClipPlane=50;
                 var key=new GameObject("Thumbnail Key").AddComponent<Light>();key.type=LightType.Directional;key.intensity=1.7f;key.cullingMask=1<<31;key.transform.rotation=Quaternion.Euler(40,-35,0);
                 var fill=new GameObject("Thumbnail Fill").AddComponent<Light>();fill.type=LightType.Directional;fill.intensity=.8f;fill.cullingMask=1<<31;fill.transform.rotation=Quaternion.Euler(30,150,0);
                 RenderSettings.ambientMode=UnityEngine.Rendering.AmbientMode.Flat;RenderSettings.ambientLight=new Color(.55f,.57f,.60f);
-                target=new RenderTexture(256,180,24){antiAliasing=4};camera.targetTexture=target;
+                target=new RenderTexture(256,180,24,RenderTextureFormat.ARGB32){antiAliasing=4};camera.targetTexture=target;
                 foreach(var part in parts)
                 {
                     part.gameObject.SetActive(true);
@@ -46,7 +46,7 @@ namespace FerrariLab.Editor
                     }
                     camera.orthographicSize=extent*1.15f;
                     camera.Render();RenderTexture.active=target;
-                    var texture=new Texture2D(256,180,TextureFormat.RGB24,false);
+                    var texture=new Texture2D(256,180,TextureFormat.RGBA32,false);
                     try{texture.ReadPixels(new Rect(0,0,256,180),0,0);texture.Apply();File.WriteAllBytes(folder+"/"+part.partId+".png",texture.EncodeToPNG());}
                     finally{Object.DestroyImmediate(texture);}
                     part.gameObject.SetActive(false);
@@ -62,7 +62,7 @@ namespace FerrariLab.Editor
             foreach(var path in Directory.GetFiles(folder,"*.png"))
             {
                 var importer=(TextureImporter)AssetImporter.GetAtPath(path.Replace('\\','/'));
-                importer.textureType=TextureImporterType.Default;importer.mipmapEnabled=false;importer.textureCompression=TextureImporterCompression.Uncompressed;importer.maxTextureSize=256;importer.SaveAndReimport();
+                importer.textureType=TextureImporterType.Default;importer.mipmapEnabled=false;importer.textureCompression=TextureImporterCompression.Uncompressed;importer.maxTextureSize=256;importer.alphaIsTransparency=true;importer.npotScale=TextureImporterNPOTScale.None;importer.SaveAndReimport();
             }
             Debug.Log("[Ferrari] Rendered 16 part thumbnails from the actual imported meshes.");
         }

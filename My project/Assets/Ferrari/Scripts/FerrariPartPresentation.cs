@@ -5,7 +5,31 @@ namespace FerrariLab
 {
     public static class FerrariPartPresentation
     {
+        public static string DisplayName(string id)
+        {
+            switch(id)
+            {
+                case "body": return "Body and cockpit";
+                case "bonnet": return "Front bonnet";
+                case "bumper_F": return "Front bumper";
+                case "bumper_R": return "Rear bumper";
+                case "door_L": return "Left door";
+                case "door_R": return "Right door";
+                case "engine": return "Rear engine assembly";
+                case "engine_cover": return "Engine cover";
+                case "rear_wing": return "Rear aerodynamic assembly";
+                case "seat_L": return "Left seat";
+                case "seat_R": return "Right seat";
+                case "steering_wheel": return "Steering wheel";
+                case "wheel_FL": return "Front left wheel";
+                case "wheel_FR": return "Front right wheel";
+                case "wheel_RL": return "Rear left wheel";
+                case "wheel_RR": return "Rear right wheel";
+                default: return id;
+            }
+        }
         static readonly Dictionary<string,Texture2D> thumbnails=new Dictionary<string,Texture2D>();
+        public static void ClearCache() { thumbnails.Clear(); }
         public static Texture2D Thumbnail(string id)
         {
             if(!thumbnails.TryGetValue(id,out var texture))

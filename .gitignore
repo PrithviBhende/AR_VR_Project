@@ -9,3 +9,17 @@ report_qa/
 Handoffs/
 submission/
 *.zip
+ZenoService/.venv/
+ZenoService/models/
+ZenoService/.local/
+**/__pycache__/
+My project/zeno.local.json
+My project/zeno.local.json.meta
+My project/.vsconfig
+My project/*.csproj
+My project/*.slnx
+FerrariSource/*_verification.txt
+FerrariSource/unity_validation*.txt
+FerrariSource/fbx_roundtrip_validation.json
+FerrariSource/raw_mesh_audit.json
+FerrariSource/relay*.json

@@ -1,0 +1,84 @@
+{
+    "entries": [
+        {
+            "id": "body",
+            "explanation": "Body and cockpit. The main shell surrounds the cockpit and carries the car's fixed exterior surfaces.",
+            "hint": "Placement hint. The fixed central reference. Other parts attach around or inside it; you do not place this group."
+        },
+        {
+            "id": "bonnet",
+            "explanation": "Front bonnet. Closes the front compartment. This is not the engine cover on this rear-engined car.",
+            "hint": "Placement hint. At the front, ahead of the windscreen and between the front wheels. The pointed nose marks the front."
+        },
+        {
+            "id": "bumper_F",
+            "explanation": "Front bumper. Forms the front nose, including exterior trim and airflow openings.",
+            "hint": "Placement hint. At the pointed front end, below the bonnet and ahead of the front wheels."
+        },
+        {
+            "id": "bumper_R",
+            "explanation": "Rear bumper. Completes the rear exterior behind the engine compartment.",
+            "hint": "Placement hint. At the back, below the rear engine area and behind the rear wheels."
+        },
+        {
+            "id": "door_L",
+            "explanation": "Left door. Closes a side opening and gives the occupants access to the cockpit.",
+            "hint": "Placement hint. Along the left side of the cockpit. Left means the occupant's left while facing the car's front."
+        },
+        {
+            "id": "door_R",
+            "explanation": "Right door. Closes a side opening and gives the occupants access to the cockpit.",
+            "hint": "Placement hint. Along the right side of the cockpit. Right means the occupant's right while facing the car's front."
+        },
+        {
+            "id": "engine",
+            "explanation": "Rear engine assembly. Produces mechanical power to drive the car. This model shows the engine as one visual assembly.",
+            "hint": "Placement hint. Behind the seats, inside the rear compartment. The engine cover sits above it, not at the front nose."
+        },
+        {
+            "id": "engine_cover",
+            "explanation": "Engine cover. Encloses the rear engine compartment and completes the bodywork above it.",
+            "hint": "Placement hint. Over the engine, behind the cockpit and ahead of the rear aerodynamic assembly."
+        },
+        {
+            "id": "rear_wing",
+            "explanation": "Rear aerodynamic assembly. A rear exterior aerodynamic assembly. Airflow forces are not simulated here.",
+            "hint": "Placement hint. Across the upper rear edge of the car, behind the engine cover."
+        },
+        {
+            "id": "seat_L",
+            "explanation": "Left seat. Supports an occupant and positions them inside the cockpit.",
+            "hint": "Placement hint. Inside the cockpit, on the left side of the cabin floor. Face it toward the windscreen."
+        },
+        {
+            "id": "seat_R",
+            "explanation": "Right seat. Supports an occupant and positions them inside the cockpit.",
+            "hint": "Placement hint. Inside the cockpit, on the right side of the cabin floor. Face it toward the windscreen."
+        },
+        {
+            "id": "steering_wheel",
+            "explanation": "Steering wheel. The driver's directional control, connected to the steering system in a real car.",
+            "hint": "Placement hint. Inside the cockpit, in front of the driver's seat and below the windscreen. The marker identifies its anchor."
+        },
+        {
+            "id": "wheel_FL",
+            "explanation": "Front left wheel. The tyre provides road contact and grip; the rim supports it. Each wheel has its own location.",
+            "hint": "Placement hint. In the front-left wheel opening, beside the nose. Sides are from an occupant's forward-facing viewpoint."
+        },
+        {
+            "id": "wheel_FR",
+            "explanation": "Front right wheel. The tyre provides road contact and grip; the rim supports it. Each wheel has its own location.",
+            "hint": "Placement hint. In the front-right wheel opening, beside the nose. Sides are from an occupant's forward-facing viewpoint."
+        },
+        {
+            "id": "wheel_RL",
+            "explanation": "Rear left wheel. The tyre provides road contact and grip; the rim supports it. Each wheel has its own location.",
+            "hint": "Placement hint. In the rear-left wheel opening, beside the engine compartment, not beside the front bonnet."
+        },
+        {
+            "id": "wheel_RR",
+            "explanation": "Rear right wheel. The tyre provides road contact and grip; the rim supports it. Each wheel has its own location.",
+            "hint": "Placement hint. In the rear-right wheel opening, beside the engine compartment, not beside the front bonnet."
+        }
+    ]
+}
